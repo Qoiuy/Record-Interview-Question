@@ -8,5 +8,6 @@
   
   <modules>
   	<module>zingfront</module>
+  	<module>xiaomi</module>
   </modules>
 </project>
