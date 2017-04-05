@@ -1,6 +1,6 @@
 #问题1描述
 	单个节点Node数据结构，大概如下：
-	</br>![图](https://github.com/Qoiuy/Record-Interview-Question/blob/master/zingfront/markdown_use/image/1.png)
+	</br>![图](https://github.com/Qoiuy/Record-Interview-Question/blob/master/zingfront/01.png)
 	struct Node{//注：只有儿子节点，没有父亲节点
 		int value;
 		List<Node> child_list;
