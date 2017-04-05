@@ -1,14 +1,15 @@
 # 问题1描述
 单个节点Node数据结构，大概如下：
 </br>![图](https://github.com/Qoiuy/Record-Interview-Question/blob/master/zingfront/01.png)
-struct Node{//注：只有儿子节点，没有父亲节点
-	int value;
-	List<Node> child_list;
-	};
-</br>函数输入：多叉树的两个节点 nodeA，nodeB
-函数输出：找到nodeA和nodeB最短路径，打印输出。
-举例：G节点到R节点的最短路径为红线所示，输出结果为"G->B->F->N->R"
-注意节点顺序
+</br>
+	struct Node{//注：只有儿子节点，没有父亲节点
+		int value;
+		List<Node> child_list;
+		};
+	函数输入：多叉树的两个节点 nodeA，nodeB
+	函数输出：找到nodeA和nodeB最短路径，打印输出。
+	举例：G节点到R节点的最短路径为红线所示，输出结果为"G->B->F->N->R"
+	注意节点顺序
 ### 解决：多叉树遍历求最短路径。
 ### 猜测：该问题主要考察会不会多叉树遍历。
 ### 广度优先搜索或深度优先搜索。
