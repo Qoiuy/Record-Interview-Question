@@ -9,5 +9,6 @@
   <modules>
   	<module>zingfront</module>
   	<module>xiaomi</module>
+  	<module>deepdata</module>
   </modules>
 </project>

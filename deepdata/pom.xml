@@ -1,0 +1,11 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>Record-Interview-Question</groupId>
+    <artifactId>Record-Interview-Question</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>deepdata</artifactId>
+  <description>http://deepdata.com.cn/ 深度数据面试题整理
+http://deepdata.com.cn/ 深度数据 公司面试题整理</description>
+</project>
